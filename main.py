@@ -1,4 +1,4 @@
-from ingestion_pipeline import build_query_engine
+from llama_index_ingestion_pipeline import build_query_engine
 
 def main():
     engine = build_query_engine()

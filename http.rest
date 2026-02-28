@@ -5,3 +5,18 @@ Content-Type: application/json
   "limit": 5,
   "include": ["documents", "metadatas","embeddings"]
 }
+
+###
+
+GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections
+
+
+###26a71a8b-fff4-4596-a0fb-651ba917cc6e
+
+POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/26a71a8b-fff4-4596-a0fb-651ba917cc6e/get
+Content-Type: application/json
+
+{
+  "limit": 5,
+  "include": ["documents", "metadatas","embeddings"]
+}
